@@ -5,10 +5,8 @@ import RandomPlanet from '../random-planet';
 import ErrorBoundry from '../error-boundry';
 import SwapiService from '../../services/swapi-service';
 import DummySwapiService from '../../services/dummy-swapi-service';
-import Row from '../row'
 
 import { PeoplePage, PlanetsPage, StarshipsPage } from '../pages';
-
 import { SwapiServiceProvider } from '../swapi-service-context';
 
 import './app.css';
@@ -23,13 +21,11 @@ export default class App extends Component {
     this.setState(({ swapiService }) => {
       const Service = swapiService instanceof SwapiService ?
                         DummySwapiService : SwapiService;
-
       return {
         swapiService: new Service()
       };
     });
   };
-
 
   render() {
 
