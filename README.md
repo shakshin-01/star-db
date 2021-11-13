@@ -1,5 +1,5 @@
 # star-db
-The project is a React app to display information about Star Wars using the swapi.co API
+The project is a React app to display information about Star Wars using the swapi.dev API
 
 
 ![Screenshot](screenshots/stardb.png)
