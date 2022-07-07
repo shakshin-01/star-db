@@ -2,7 +2,7 @@
 
 The project is a React app to display information about Star Wars using the swapi.dev API
 
-# [Demo](star-db-shakshin.netlify.app)
+# [Demo](https://star-db-shakshin.netlify.app/)
 
 ![Screenshot](screenshots/stardb.png)
 
